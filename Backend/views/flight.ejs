@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App</title>
+</head>
+<body>
+    <h1>Travel Details</h1>
+    <ul>
+        <% flights.forEach(flights => { %>
+            <li>
+                <strong>Destination:</strong> <%= flights.ID %>,
+                <strong>Airline:</strong> <%= flights.Departure %>,
+                <strong>Arrival:</strong> <%= flights.Arrival %>,
+                <strong>Airline:</strong> <%= flights.Airline %>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
