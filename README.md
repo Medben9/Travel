@@ -26,14 +26,6 @@ This repository contains the frontend and backend components of a comprehensive 
 travel-booking-system
 |-- backend
 |   |-- src
-|   |   |-- models
-|   |   |   |-- flights.js
-|   |   |   |-- passengers.js
-|   |   |   |-- reservations.js
-|   |   |-- routes
-|   |   |   |-- flights.js
-|   |   |   |-- passengers.js
-|   |   |   |-- reservations.js
 |   |   |-- app.js
 |   |-- .env
 |   |-- package.json
@@ -64,7 +56,7 @@ I've set up MongoDB replicas for data redundancy and high availability. Follow M
 Integration with Azure CosmosDB is established to showcase the process of migrating data from MongoDB to CosmosDB while maintaining consistency. Refer to Azure documentation for CosmosDB setup.
 
 ### Advanced Queries and Aggregates
-Explore backend/src/routes directory for API endpoints that perform advanced queries and aggregates as specified in the project requirements.
+Explore backend/src directory for API endpoints that perform advanced queries and aggregates as specified in the project requirements.
 
 ## Frontend Setup
 
@@ -72,29 +64,10 @@ Explore backend/src/routes directory for API endpoints that perform advanced que
 The frontend provides a user interface for booking tickets, viewing schedules, managing reservations, and interacting with the MongoDB database.
 
 ### Technology Stack
-I've used React for the frontend application and Axios for API communication.
+I've used React for the frontend application and fetch for API communication with express server.
 
 ### How to Run
-1. Clone the repository: `git clone https://github.com/your-username/travel-booking-system.git`
-2. Navigate to the frontend directory: `cd travel-booking-system/frontend`
+1. Clone the repository: `https://github.com/Medben9/Travel.git`
+2. Navigate to the frontend directory: `cd frontend`
 3. Install dependencies: `npm install`
 4. Start the application: `npm start`
-
-## Presentation
-
-### Schema Design
-I've explained the rationale behind the chosen schema, detailing entities, attributes, and relationships. I've used ER diagrams or schema layouts for visualization.
-
-### MongoDB Implementation
-I describe the process of implementing the schema in MongoDB. This includes details on creating collections, establishing relationships, defining indexes, and populating the database with sample data.
-
-### CosmosDB Integration
-I illustrate the steps I've taken to integrate MongoDB with Azure CosmosDB. I discuss the migration process and how data consistency is maintained during the transition.
-
-### Application Development
-I provide insights into the development of the CRUD application, including the chosen programming language or framework, key features, and seamless execution of CRUD operations.
-
-### Challenges and Lessons Learned
-I discuss challenges I faced during the project, solutions implemented, and lessons learned. I highlight the reasoning behind technology and design choices made throughout the development process.
-
-Feel free to customize this README file according to your project specifics and provide any additional information or instructions that might be helpful for users or contributors.
